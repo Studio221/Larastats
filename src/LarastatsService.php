@@ -2,6 +2,9 @@
 
 namespace Bigsnowfr\Larastats;
 
+use Carbon\Carbon;
+use Illuminate\Support\Facades\DB;
+
 /**
  * Class LarastatsService
  * @package Bigsnowfr\Larastats

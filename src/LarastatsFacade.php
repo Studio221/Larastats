@@ -8,6 +8,6 @@ class LarastatsFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'larastats';
+        return LarastatsService::class;
     }
 }
