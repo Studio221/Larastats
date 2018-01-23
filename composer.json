@@ -15,10 +15,7 @@
   "autoload": {
     "psr-4": {
       "Bigsnowfr\\Larastats\\": "src/"
-    },
-    "files": [
-      "src/helpers.php"
-    ]
+    }
   },
   "extra": {
     "laravel": {
