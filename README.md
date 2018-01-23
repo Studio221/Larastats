@@ -64,7 +64,7 @@ public function index(Request $request)
 <div class="card-box">
 	<div id="stats-container"></div>
 </div>
-	<script>
+<script>
           // Date Range user graph
           const url_string = window.location.href,
             url = new URL(url_string),
