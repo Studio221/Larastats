@@ -14,8 +14,8 @@ class LarastatsService
 
     /**
      * @param string $model
-     * @param string $start
-     * @param string $end
+     * @param $start
+     * @param $end
      * @param string $type
      *
      * @return mixed
