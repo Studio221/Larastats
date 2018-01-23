@@ -1,6 +1,6 @@
 {
   "name": "bigsnowfr/larastats",
-  "description": "This package allow you to fetch stats as a graph or as an integer from one of your model.",
+  "description": "This package allow you to fetch stats as a graph or as an integer from one of your model and get a simple value or an array with a pair value of date and count.",
   "type": "library",
   "require": {
     "nesbot/carbon": "^1.22"
