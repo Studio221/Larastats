@@ -1,6 +1,6 @@
 # Larastats
 
-A simple Laravel package allowing you to fetch stats from any of your models.
+A simple Laravel package allowing you to fetch stats from any of your models created between two dates passed in parameters.
 
 
 ## Installation
