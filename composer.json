@@ -1,0 +1,33 @@
+{
+  "name": "bigsnowfr/larastats",
+  "description": "This package allow you to fetch stats as a graph or as an integer from one of your model.",
+  "type": "library",
+  "require": {
+    "nesbot/carbon": "^1.22"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EtienneFontaine",
+      "email": "etienne@221.rocks"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bigsnowfr\\Larastats\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Bigsnowfr\\Larastats\\LarastatsServiceProvider"
+      ],
+      "aliases": {
+        "Larastats": "Bigsnowfr\\Larastats\\LarastatsFacade"
+      }
+    }
+  }
+}
