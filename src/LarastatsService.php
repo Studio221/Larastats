@@ -20,7 +20,7 @@ class LarastatsService
      *
      * @return mixed
      */
-    public static function getStatByDate(string $model, string $start, string $end, string $type = 'graph')
+    public static function getStatByDate(string $model, $start, $end, string $type = 'graph')
     {
         $start = $start ? Carbon::parse($start) : Carbon::now()->subWeek();
         $end   = $end ? Carbon::parse($end) : Carbon::now();
