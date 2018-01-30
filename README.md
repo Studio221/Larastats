@@ -8,15 +8,7 @@ A simple Laravel package allowing you to fetch stats from any of your models cre
 ### With Composer
 
 ```
-$ composer require bigsnowfr/larastats @dev
-```
-
-```json
-{
-    "require": {
-        "bigsnowfr/larastats": "@dev"
-    }
-}
+composer require bigsnowfr/larastats
 ```
 
 
